@@ -7,6 +7,7 @@ for i in range(1,N+1):
         ANSWER.append(i)
 
     
+
     
 if len(ANSWER) < K:
     print(0)
