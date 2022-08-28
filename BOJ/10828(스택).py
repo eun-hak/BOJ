@@ -8,6 +8,7 @@ def pop():                      #스택 가장위에 정수를 빼고 그 수를
     if len(stack) ==0:
         return-1
 
+
     if not stack:
         return -1
     else:
