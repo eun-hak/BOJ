@@ -1,9 +1,10 @@
+  
+
 #2022.01.14 10828(스택)문제
 
 
 def push(x):                    #정수를 스택에 넣는 연산
     stack.append(x)
-
 def pop():                      #스택 가장위에 정수를 빼고 그 수를 출력
     if len(stack) ==0:
         return-1
@@ -27,11 +28,9 @@ def top():                      #가장 위의 정수를 출력, 없는경우 -1
     return stack[-1] if stack else -1
 
 
-
 import sys
 N = int(input())   #이 개수만큼 반복
 stack = []
-
 
 #sys.stdin.readlin() => 반복문으로 여러줄 입력받을때는 input() 대신 사용
 #                       여러줄에 input() 사용시 시간초과 문제
