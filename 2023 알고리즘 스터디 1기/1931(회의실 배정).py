@@ -21,9 +21,6 @@
 
 
 
-
-
-
 # 풀이법
 # 우선 리스트를 빨리 끝나는 순으로 정렬해야 될듯?
 # 
@@ -38,12 +35,9 @@ N = int(input())
 
 meeting_time = []
 
-
 for i in range(N):
     a,b = map(int,input().split())
     meeting_time.append([a,b])
-    
-
 meeting_time = sorted(meeting_time, key = lambda a : a[0])      # 시작을 기준으로 정렬 한번
 meeting_time = sorted(meeting_time, key = lambda a : a[1])      # 끝을 기준으로 정렬 한번
 
@@ -54,7 +48,6 @@ for i, j in meeting_time:
     if i>= last:                #회의 끝나는 시간과 비교했을 때 크다면 그 회의는 최적의 해
         total +=1
         last = j
-
 print(total)
 
 
