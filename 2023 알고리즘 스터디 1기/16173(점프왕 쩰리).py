@@ -49,9 +49,6 @@ array = [list(map(int,input().split())) for i in range(n)]
 visited = []
 for i in range(n):
     visited.append([False]*n)
-#리스트 컴프리헨션으로 간소화
-
-
 
 
 #아래랑 오른쪽을 계속 돌아야 하므로 설정
