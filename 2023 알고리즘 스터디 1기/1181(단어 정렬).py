@@ -7,6 +7,7 @@ for i in range(N):
 
 array = list(set(array))
 
+
 #1순위 조건이 마지막에 오게끔
 array.sort()
 array.sort(key=len)
