@@ -1,6 +1,5 @@
 array = list(input())
 
-
 stack = []
 answer = 0
 tmp = 1
